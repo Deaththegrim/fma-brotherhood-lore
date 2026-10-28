@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://deaththegrim.github.io/fma-brotherhood-lore/sitemap.xml
