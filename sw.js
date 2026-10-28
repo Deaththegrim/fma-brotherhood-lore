@@ -6,7 +6,7 @@
    that build's. Pages come from the network first; offline, the stored home page stands in for any page and the app draws the
    asked one from the stored data. Pictures answer from the store and are refreshed behind it (the newest MAX_IMAGES, per build).
    Every site of the host shares one origin and so one cache storage: this site's stores carry its folder's name. */
-var LOREBOOK = {"version": "0a8551cb93bdcb75", "shell": ["./", "app.js?v=0a8551cb93bdcb75", "pages.js?v=0a8551cb93bdcb75", "bench.js?v=0a8551cb93bdcb75", "depth.js?v=0a8551cb93bdcb75", "play.js?v=0a8551cb93bdcb75", "reader.js?v=0a8551cb93bdcb75", "style.css?v=0a8551cb93bdcb75", "data.json?v=0a8551cb93bdcb75", "manifest.webmanifest", "favicon.ico", "apple-touch-icon.png", "icon-192.png", "icon-512.png"]};
+var LOREBOOK = {"version": "77fa1a3929889d05", "shell": ["./", "app.js?v=77fa1a3929889d05", "pages.js?v=77fa1a3929889d05", "bench.js?v=77fa1a3929889d05", "depth.js?v=77fa1a3929889d05", "play.js?v=77fa1a3929889d05", "reader.js?v=77fa1a3929889d05", "style.css?v=77fa1a3929889d05", "data.json?v=77fa1a3929889d05", "manifest.webmanifest", "favicon.ico", "apple-touch-icon.png", "icon-192.png", "icon-512.png", "card.jpg", "fonts/anton-400.woff2", "fonts/barlow-400.woff2", "fonts/barlow-500.woff2", "fonts/barlow-600.woff2", "fonts/caveat-brush-400.woff2", "fonts/jetbrains-mono.woff2", "fonts/OFL-anton.txt", "fonts/OFL-barlow.txt", "fonts/OFL-caveat-brush.txt", "fonts/OFL-jetbrains-mono.txt", "host.webp"]};
 var SITE = self.registration.scope.replace(/\/+$/, "").split("/").pop() || "lore";
 var STATIC = SITE + "-static-" + LOREBOOK.version, IMAGES = SITE + "-images-" + LOREBOOK.version, MAX_IMAGES = 400;
 
